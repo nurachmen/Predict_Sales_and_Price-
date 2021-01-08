@@ -31,3 +31,11 @@ and result RMSE the best model RandomForrest
 
 # Result Predict
 
+![result predict](https://user-images.githubusercontent.com/44828347/103972655-f5c65d80-519f-11eb-9dec-75ee3deb060d.png)
+
+succesfully predict Sales!
+
+# Predict Price
+Model Using XGBoost
+
+
