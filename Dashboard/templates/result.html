@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RESULT PREDICTION</title>
+    <style>
+            body {
+                background-image: url({{url_for('static',filename='wish2.jpg') }});
+                background-size: 1300px 620px
+                }
+            div.form {
+                display: block;
+                text-align: center;
+                }
+            form {
+                display: inline-block;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: left;
+                }
+        </style>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <center>
+    <br><br><br>
+    <h3 style="background-color: whitesmoke; width:400px; padding: 20px 0px; 
+     text-align:center; opacity:0.9">
+    <p style="color:black ; font-size:30px" >RESULT PREDICTION</p>
+    <p style="font-size: 20px">Price: {{ Hasil.Price }}</p>
+    <p style="font-size: 20px">UsesAdBoosts: {{ Hasil.UsesAdBoosts }}</p>
+    <p style="font-size: 20px">AmountRating: {{ Hasil.AmountRating }}</p>
+    <p style="font-size: 20px">AmountRatingFive: {{ Hasil.AmountRatingFive }}</p>
+    <p style="font-size: 20px">AmountRatingFour: {{ Hasil.AmountRatingFour }}</p>
+    <p style="font-size: 20px">AmountRatingThree: {{ Hasil.AmountRatingThree }}</p>
+    <p style="font-size: 20px">AmountBadges: {{ Hasil.AmountBadges }}</p>
+    <p style="font-size: 20px">BadgeLocalProduct: {{ Hasil.BadgeLocalProduct }}</p>
+    <p style="font-size: 20px">BadgeProductQuality: {{ Hasil.BadgeProductQuality }}</p>
+    <p style="font-size: 20px">BadgeFastShipping: {{ Hasil.BadgeFastShipping }}</p>
+    <p style="font-size: 20px">AmountMerchantRating: {{ Hasil.AmountMerchantRating }}</p>
+    <p style="font-size: 20px">MerchantRating: {{ Hasil.MerchantRating }}</p>
+    <p style="font-size: 20px">revenue: {{ Hasil.revenue }}</p>
+    <p style="font-size: 20px">Prediction: {{ Hasil.predict }}</p></h3>
+    <a href="http://localhost:5000/">
+        <button class="btn btn-dark mt-3 mb-3">BACK TO HOMEPAGE</button>
+    </a>
+    </center>
+</body>
+</html>

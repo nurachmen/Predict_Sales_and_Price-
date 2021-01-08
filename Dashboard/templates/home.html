@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Units Sold Prediction</title>
+    <style>
+        body {
+            background-image: url({{url_for('static',filename='wish.jpg') }});
+            background-size: 1300px 620px
+            }
+        div.form {
+            display: block;
+            text-align: center;
+            }
+        form {
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+            }
+    </style>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <a href="http://localhost:5000/Visualization">
+        <button type="submit" class="btn btn-dark mt-3 mb-3">Visualization</button>
+        </a>
+    <!-- <a href="http://localhost:5000/heatmap">
+        <button type="submit" class="btn btn-dark mt-3 mb-3">Visualization</button>
+        </a> -->
+    <center>
+    <form action="http://localhost:5000/result" method="POST">
+    <h3 style="background-color: whitesmoke;font-family:Helvetica, Arial, sans-serif; font-size: 50px;
+    font-style: italic; text-shadow: 2px 2px #0f0101;">
+       <center> <b>Units Sold Prediction</b></h3></center>
+       <center>                    
+        <br><b>Price</b> =
+        <input name="Price" placeholder="Insert Price" type="number" step="0.01"
+        min="0" style="width: 100px" required/>  
+        &nbsp   
+        <b>Uses Ad Boosts</b> =
+        <input name="UsesAdBoosts" placeholder="Insert Uses Ad Boosts" type="number"
+        min="0" max="1" style="width: 125px" required />
+        &nbsp
+        <b>Retail Price</b> =
+        <input name="RetailPrice" placeholder="Insert Retail Price" type="number" step="0.01"
+        min="0" style="width: 100px" required/> 
+        &nbsp
+        <br><br><b>Amount Rating</b> =
+        <input name="AmountRating" placeholder="Insert Amount Rating" type="number"
+        min="0" style="width: 125px" required/>
+        &nbsp
+        <b>Rating</b> =
+        <input name="Rating" placeholder="Insert Rating" type="number" step="0.01"
+        min="0" max="5"  style="width: 150px" required/>
+        &nbsp
+        <br><br><b>Badge Local Product</b> =
+        <input name="BadgeLocalProduct" placeholder="Insert Badge Local Product" type="number"
+        min="0" max="1" style="width: 150px" required/>
+        &nbsp
+        <b>Badge Product Quality</b> =
+        <input name="BadgeProductQuality" placeholder="Insert Badge Product Quality" type="number"
+        min="0" max="1" style="width: 150px" required/>
+        &nbsp
+        <b>Badge Fast Shipping</b> =
+        <input name="BadgeFastShipping" placeholder="Insert Badge Fast Shipping" type="number"
+        min="0" max="1" style="width: 150px" required/>
+
+        <br><br><b>Amount Merchant Rating</b> =
+        <input name="AmountMerchantRating" placeholder="Insert Amount Merchant Rating" type="number"
+        min="0"  style="width: 150px" required/>
+        &nbsp
+        <b>Merchant Rating</b> =
+        <input name="MerchantRating" placeholder="Insert Merchant Rating" type="number" step="0.01"
+        min="0" max="5" style="width: 150px" required/>
+        &nbsp
+       
+        <br><br>
+        <h3><b> Attention </b></h3>
+        <p><b>Uses Ad Boosts</b> : insert 0 for No use Ad and insert 1 for Use Ad &nbsp </p>
+        <p><b>Rating</b> : insert 0 until 5 for Rating &nbsp </p>
+        <p><b>Badge Local Product</b> : insert 0 for No Badge and insert 1 Yes Badge  </p>
+        <p><b>Badge Product Quality</b> : insert 0 for No Badge and insert 1 Yes Badge &nbsp / &nbsp <b>Badge Fast Shipping</b> : insert 0 for No Badge and insert 1 Yes Badge </p>
+        <p><b>Merchant Rating</b> : insert 0 until 5 </p>
+        <button type="submit" class="btn btn-dark mt-3 mb-3">Predict</button>
+        </center> 
+        </a>
+    </form>
+    </center>
+</body>
+</html>

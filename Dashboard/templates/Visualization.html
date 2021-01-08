@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Visualization</title>
+    <style>
+            body {
+                background-image: url({{url_for('static',filename='wish1') }});
+                background-size: 1300px 620px
+                }
+            div.form {
+                display: block;
+                text-align: center;
+                }
+            form {
+                display: inline-block;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: left;
+                }
+        </style>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <body style="background-image: url({{url_for('static',filename='ee.jpg') }})">
+
+        <!-- HEADING -->
+        <center><br>
+            <img src="../static/wish4.jpg" width="8%" ><br><br>
+            <h2 class="display-4"><strong>Wish E-Commerce</strong> <span class="badge badge-secondary">Insight</span></h2>
+            <br>
+        </center>
+    
+        <!-- Boxplot -->
+        <div class="container-fluid">
+            <h2 class="display-5">Price</h2>
+            <center><img src="../static/displotprice1.png" width="600" height="400"><br><br></center>
+            <p>
+                <strong>Analisis</strong><br>
+                rata rata produk summer yang dijual pada e-commerce wish berada pada rentan 7 - 12 Euro.
+            </p>
+        </div>
+        
+        <!-- Lineplot -->
+        <div class="container-fluid">
+            <h2 class="display-5">advertisement</span></h2>
+            <center><img src="../static/ads 1.png" width="600" height="400"><br><br></center>
+            <center><img src="../static/ads 3.png" width="600" height="400"><br><br></center>
+            <p>
+                <strong>Analisis</strong><br>
+                Dari data tersebut menandakan bahwa penggunaan iklan di e-commerce wish tidak berpengaruh terhadap penjualan
+    .
+            </p>
+        </div>
+    
+        <!-- Histogram -->
+        <div class="container-fluid">
+            <h2 class="display-5">Product color</span></h2>
+            <center><img src="../static/productcolor1.png" width="600" height="400"><br><br></center>
+            <center><img src="../static/productcolor3.jpg" width="600" height="400"><br><br></center>
+            <center><img src="../static/productcolor4..png" width="600" height="400"><br><br></center>
+            <center><img src="../static/productcolor4.jpg" width="600" height="400"><br><br></center>
+            <center><img src="../static/productcolor5.jpg" width="600" height="400"><br><br></center>
+            <p>
+                <strong>Analisis</strong><br>
+                Dari Visual Tersebut warna hitam dan putih merupakan variasi warna yang banyak terjual<br>
+                Penggunaan iklan pada penjualan warna tidak terlalu berpengaruh pada unit yang terjual<br>
+                merchant yang memiliki badge berpengaruh terhadap penjualan seperti warna gold<br>
+            </p>
+        </div>
+        
+        <!-- Heatmap -->
+        <div class="container-fluid">
+            <h2 class="display-5">Origin Coutry</h2>
+            <center><img src="../static/country1.jpg" width="600" height="400"><br><br></center>
+            <center><img src="../static/country2.jpg" width="600" height="400"><br><br></center>
+            <p>
+                <strong>Analisis</strong><br>
+                Dari Data Visualisasi Bahwa barang terbanyakan dari Negara Cina begitupun Penjualan terbanyak dari Cina
+            </p>
+        </div>
+        
+        <!-- Barplot -->
+        <div class="container-fluid">
+            <h2 class="display-5">Badge and Rating</span></h2>
+            <center><img src="../static/badge1.jpg" width="600" height="400"><br><br></center>
+            <center><img src="../static/badge2.jpg" width="600" height="400"><br><br></center>
+            <center><img src="../static/badge1.jpg" width="600" height="400"><br><br></center>
+            <center><img src="../static/rating1.jpg" width="600" height="400"><br><br></center>
+            <p>
+                <strong>Analisis</strong><br>
+                Dari Data Rating maupun merchant rating terhadap unit yang terjual menunjukan bahwa memiliki rating 3 ke atas menunjang penjualan menandakan rating berpengaruh terhadap penjualan<br>
+                Penjualan yang memiliki Badge lebih tinggi penjualannya
+    
+            </p>
+        </div>
+    
+          <!-- Barplot -->
+          <div class="container-fluid">
+            <h2 class="display-5">Product Size</span></h2>
+            <center><img src="../static/product size.png" width="600" height="400"><br><br></center>
+            <center><img src="../static/size2.jpg" width="600" height="400"><br><br></center>
+            <center><img src="../static/size3.jpg" width="600" height="400"><br><br></center>
+            <center><img src="../static/size4.jpg" width="600" height="400"><br><br></center>
+            <center><img src="../static/size5.jpg" width="600" height="400"><br><br></center>
+            <p>
+                <strong>Analisis</strong><br>
+                Bahwa dengan Ukuran produk ukuran kecil dari S - M yang merupakan penjualan tertinggi dibandignkan dengan ukuran Besar L ke atas<br>
+                Untuk Harga tidak terlalu terdapat perbedaan yang signifikan antar ukuran hanya ukuran XXXXXL yang memiliki harga paling tertinggi<br>
+                Penggunaan Iklan masih tidak terlalu berpengaruh terhadap penjualan<br>
+    
+    
+            </p>
+        </div>        
+    <center>
+    <a href="http://localhost:5000/">
+        <button>BACK TO HOMEPAGE</button>
+    </a>
+    </center>
+</body>
+</html>
