@@ -8,7 +8,7 @@ From the dataset which can be found here :
 https://www.kaggle.com/jmmvutu/summer-products-and-sales-in-ecommerce-wish
 
 
-With this dataset I will visualize and predict prices and sales with Method Machine Learning Supervised Learning
+With this dataset I will visualize and predict prices and sales with Method Machine Learning Supervised Learning Regressor
 and compare 3 models
 1. XGBoost
 2. RandomForrest
