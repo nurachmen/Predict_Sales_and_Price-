@@ -27,5 +27,7 @@ and result RMSE the best model RandomForrest
 
 ![result home](https://user-images.githubusercontent.com/44828347/103971414-13de8e80-519d-11eb-8335-ef0587da9458.png)
 
+![result rff](https://user-images.githubusercontent.com/44828347/103971741-ee05b980-519d-11eb-958a-0d6f6942591d.png)
 
+# Result Predict
 
