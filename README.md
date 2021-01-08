@@ -38,7 +38,7 @@ succesfully predict Sales!
 # Predict Price
 Model Using XGBoost
 
-[result price](https://user-images.githubusercontent.com/44828347/103972913-b6e4d780-51a0-11eb-822b-df9c45633f72.png)
+![result price](https://user-images.githubusercontent.com/44828347/103972913-b6e4d780-51a0-11eb-822b-df9c45633f72.png)
 
 Evaluation Model Using RMSE
 
