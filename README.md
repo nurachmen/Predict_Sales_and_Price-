@@ -20,6 +20,9 @@ Result Model
 
 ![model sales](https://user-images.githubusercontent.com/44828347/103969500-9d3f9200-5198-11eb-9fc8-9bd15481b7da.png)
 
+Evaluation Model using RMSE
+and result RMSE the best model RandomForrest
+
 # Result Method using RandomForrest
 
 
