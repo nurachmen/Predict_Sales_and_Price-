@@ -1,5 +1,5 @@
-# Predict Sales and Price
-Predict Sales, Price and Data  visualization from Summer Product at E-commerce Wish 
+# Predictions Sales and Prices
+Predictions Sales, Prices and Data  visualization from Summer Product at E-commerce Wish 
 
 
 This data is data from e-commerce wish for summer product sales where data is taken in August 2020
